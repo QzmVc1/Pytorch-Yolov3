@@ -53,4 +53,3 @@ def predict_transform(x, inp_size, anchors, class_num, CUDA):
     # 将 gridxgrid 的框图恢复到 inp_sizexinp_size 大小
     x[:, :, :4] *= stride
     return x
-
