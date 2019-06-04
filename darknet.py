@@ -177,4 +177,3 @@ if __name__ == '__main__':
     path = 'C:\SecurityMonitor\Pytorch_Yolov3\cfg\Yolov3.cfg'
     blocks = parseCfg(path)
     net_info, modules = createModules(blocks)
-    print(modules[82][0].anchors)
