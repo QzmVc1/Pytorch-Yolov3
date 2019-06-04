@@ -2,7 +2,6 @@ import torch
 import numpy as np
 
 
-
 # grid = np.arange(13)
 # x, y = np.meshgrid(grid, grid)
 # x_offset = torch.FloatTensor(x).view(-1,1)
